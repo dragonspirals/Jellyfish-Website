@@ -1,0 +1,154 @@
+/*-----------------defaults---------------------*/
+* {
+  box-sizing:border-box;
+}
+
+body{
+    background-image:url(https://images.unsplash.com/photo-1590421958459-071ca4271af6?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjYzNTM2ODU&ixlib=rb-4.0.3&q=80);
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+  max-width:960px;
+  margin:auto;
+}
+
+
+h1 {
+  color:white;
+  font-family: "Lobster Two", serif;
+  font-size: min(7vw, 72px);
+  padding-left: 20%;
+}
+
+
+h2 {
+  color:white;
+  text-align:center;
+  font-family:"Arima Madurai", sans-serif;
+  font-size: min(3.5vw,32px)
+}
+
+
+h3 {
+  color:white;
+  text-align:left;
+  font-family:"Arima Madurai", sans-serif;
+  font-size: min(2.5vw,24px)
+}
+
+
+h5 {
+  font-family: "Montserrat", serif;
+  color:white;
+  font-size:min(3vw,18px);
+  line-height:1.8em;
+}
+
+
+p {
+  font-family:"Montserrat", serif;
+  font-size:min(2vw,16px);
+  line-height:max(16px,1.5vw);
+  color:white;
+  vertical-align:middle;
+}
+
+
+a {
+  text-decoration: inherit;
+  font-family: inherit;
+}
+
+.clickdiv {
+  display:block;
+  height:100%;
+  width:100%;
+  text-decoration:none;
+}
+
+/*--------------classes------------------*/
+
+.clickable {
+  cursor:pointer;
+}
+
+.space {
+  padding-left:5%;
+  padding-right:5%;
+}
+
+.cushion {
+  padding-top:2%;
+  padding-bottom:2%;
+}
+
+/*columns*/
+
+.col-container {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+
+.col-cent {
+  align-items:center;
+}
+
+.column {
+  flex:1;
+}
+
+.wide-column {
+  flex:1.4;
+}
+
+.wider-column {
+  flex:2;
+}
+
+.smallcolumn {
+  min-width:150px;
+}
+
+/* -------------------------------------------- */
+
+.boxbox {
+  background-color: rgba(0, 25, 50, 1);
+  border-style: double;
+  border-color: white;
+  border-width: 5px;
+  margin:0px;
+}
+
+.boxbox.clickable:hover {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+
+.transbox {
+   background-color:  rgba(0, 25, 50, 0.5);
+  margin:0px;
+}
+
+.transbox.clickable:hover {
+  background-color:rgba(0, 0, 0, 1);
+}
+
+.currentbox{
+  background-color: rgb(32, 100, 160);
+  border-style: double;
+  border-color: white;
+  border-width: 5px;
+  margin:0px;
+}
+
+
+/* images */
+
+.imgwrap {
+  float:left;
+  margin:2%;
+}
+
+ 
+/*------------------ids--------------------------------*/
