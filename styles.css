@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image:url(https://images.unsplash.com/photo-1590421958459-071ca4271af6?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjYzNTM2ODU&ixlib=rb-4.0.3&q=80);
+  background-image:url(https://images.unsplash.com/photo-1590421958459-071ca4271af6?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjYzNTM2ODU&ixlib=rb-4.0.3&q=80);
   background-size:cover;
   background-position:center;
   background-attachment:fixed;
@@ -48,15 +48,15 @@ h5 {
 p {
   font-family:"Montserrat", serif;
   font-size:min(2vw,16px);
-  line-height:max(16px,1.5vw);
+  line-height:max(16px,1.8vw);
   color:white;
   vertical-align:middle;
 }
 
 
 a {
-  text-decoration: inherit;
   font-family: inherit;
+  color:inherit;
 }
 
 .clickdiv {
